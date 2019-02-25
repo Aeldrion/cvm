@@ -1,0 +1,17 @@
+cvm.mobs.burw_id:			Numerical ID of a burrower (necessary because they are composed of multiple entities)
+cvm.mobs.burw_ps:			Position of a burrower's body part from its head
+cvm.mobs.eebloop:			Ender eye behavior loop
+
+cvm.paths.sneak:		 	Counts how much the player has sneaked
+cvm.paths.run:				Counts how much the player has ran
+cvm.paths.walk:				Counts how much the player has walked
+
+cvm.skyp.engcd:				Engine cooldown time left
+cvm.skyp.max:				Maximum skypower supported by an engine
+cvm.skyp.power:				Skypower value of an engine
+
+cvm.timber.####:			Detects when the player mines a log
+cvm.timber.sneak:			Determines whether or not the player is sneaking
+
+cvm.vein.####:				Detects when the player mines a specific ore
+cvm.vein.sneak:				Determines whether or not the player is sneaking

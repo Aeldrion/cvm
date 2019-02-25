@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "match_tool",
+									"predicate": {
+										"nbt": "{cvm_item:{Blessings:[{\"id\":\"internal_blaze\"}]}}"
+									}
+								}
+							],
+							"functions": [
+								{
+								  "function": "minecraft:apply_bonus",
+								  "enchantment": "minecraft:fortune",
+								  "formula": "minecraft:ore_drops"
+								},
+								{
+								  "function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:gold_ingot"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:gold_ore"						
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

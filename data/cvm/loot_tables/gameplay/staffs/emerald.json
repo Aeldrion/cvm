@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_emerald",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.life_charm\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:3,staff_spell:1,mana_cost:200},CustomModelData:1512003}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_emerald",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.protection_charm\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:3,staff_spell:2,mana_cost:100},CustomModelData:1512003}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_emerald",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.warding_charm\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:3,staff_spell:3,mana_cost:250},CustomModelData:1512003}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_amethyst",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.amethyst_sparks\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:1,mana_cost:30},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_amethyst",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.flame_ray\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:2,mana_cost:40},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_amethyst",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.frost_ray\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:4,mana_cost:25},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_amethyst",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.prismarine_shards\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:5,mana_cost:5},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{id:"minecraft:leather_boots",Count:1b,Slot:4b,tag:{Unbreakable:1b,display:{Name:"{\"translate\":\"cvm.item.magma_boots\",\"italic\":false}",color:16711680},CustomModelData:4,cvm_item:{id:"magma_boots"}}}]}

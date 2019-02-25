@@ -1,0 +1,11 @@
+{
+	"values": [
+		"cvm:modules/armor/main",
+		"cvm:modules/blessings/main",
+		"cvm:modules/mobs/main",
+		"cvm:modules/rocket_boots/main",
+		"cvm:modules/staffs/main",
+		"cvm:modules/timber/main",
+		"cvm:modules/veins/main"
+	]
+}

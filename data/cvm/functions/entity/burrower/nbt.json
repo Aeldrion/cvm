@@ -1,0 +1,47 @@
+{
+	"name": "burrower",
+	"type": "entity",
+	"id": "minecraft:skeleton",
+	"spawn_commands": [
+		"execute as @e[type=minecraft:skeleton,tag=cvm.mobs.burrower_spawn,limit=1] at @s run function cvm:entity/burrower/behavior/spawn"
+	],
+	"data_commands": [
+		"function cvm:entity/burrower/behavior/spawn"
+	],
+	"nbt": {
+		"ArmorItems": [
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:air"
+			}
+		],
+		"CustomName": "{\"translate\":\"cvm.entity.burrower\"}",
+		"DeathLootTable": "cvm:entity/burrower",
+		"HandItems": [
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:air"
+			}
+		],
+		"NoAI": 1,
+		"NoGravity": 1,
+		"Silent": 1,
+		"Tags": [
+			"cvm.entity.checked",
+			"cvm.mobs.burrower",
+			"cvm.mobs.burrower_spawn",
+			"cvm.mobs.changed",
+			"cvm.mobs.invisible"
+		]
+	}
+}

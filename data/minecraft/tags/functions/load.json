@@ -1,0 +1,6 @@
+{
+	"values": [
+		"cvm:load/scoreboard",
+		"cvm:clock"
+	]
+}

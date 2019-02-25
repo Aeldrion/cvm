@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.internal_blaze\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"internal_blaze\"},CustomModelData:1}"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.frostburn\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"frostburn\"},CustomModelData:1}"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.celestial_strike\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"celestial_strike\"},CustomModelData:1}"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.featherlight\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"featherlight\"},CustomModelData:1}"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		}
+	]
+}

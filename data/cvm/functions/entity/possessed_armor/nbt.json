@@ -1,0 +1,45 @@
+{
+	"name": "possessed_armor",
+	"type": "entity",
+	"id": "minecraft:zombie",
+	"nbt": {
+		"ArmorDropChances": [
+			0.075, 0.075, 0.075, 0.075
+		],
+		"ArmorItems": [
+			{
+				"id": "minecraft:iron_boots",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:iron_leggings",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:iron_chestplate",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:iron_helmet",
+				"Count": 1
+			}
+		],
+		"Attributes": [
+			{
+				"Name": "generic.maxHealth",
+				"Base": 40.0
+			}
+		],
+		"CustomName": "{\"translate\":\"cvm.mobs.possessed_armor\"}",
+		"DeathLootTable": "cvm:entity/possessed_armor",
+		"Health": 40.0,
+		"isBaby": 0,
+		"Silent": 1,
+		"Tags": [
+			"cvm.entity.checked",
+			"cvm.mobs.possessed_armor",
+			"cvm.mobs.changed",
+			"cvm.mobs.invisible"
+		]
+	}
+}
