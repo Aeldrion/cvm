@@ -1,0 +1,145 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 12,
+								"max": 26
+							}
+						}
+					],
+					"name": "minecraft:cobweb"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spider_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 7
+							}
+						}
+					],
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.spider_sword",
+								"italic": false
+							}
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:sharpness", "minecraft:smite"
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							}
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							}
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.sapphire",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1512003,cvm_item:{id:\"sapphire\"}}"
+						}
+					],
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							}
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.ruby",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1512002,cvm_item:{id:\"ruby\"}}"
+						}
+					],
+					"name": "minecraft:clock"
+				}
+			]
+		}
+	]
+}

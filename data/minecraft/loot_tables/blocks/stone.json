@@ -32,7 +32,7 @@
 								{
 									"condition": "match_tool",
 									"predicate": {
-										"nbt": "{cvm_item:{Blessings:[{\"id\":\"internal_blaze\"}]}}"
+										"nbt": "{cvm_item:{Blessing:\"internal_blaze\"}}"
 									}
 								}
 							],

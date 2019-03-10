@@ -1,0 +1,14 @@
+{
+	"description": [
+		"A list of blocks below which the structure generator should teleport before generating a structure",
+		"For instance, no structure shoul be generated over a tree"
+	],
+	"values": [
+		"#aestd:air",
+		"#aestd:plants",
+		"#minecraft:ice",
+		"#minecraft:leaves",
+		"#minecraft:logs",
+		"minecraft:snow"
+	]
+}

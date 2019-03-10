@@ -16,6 +16,7 @@ scoreboard objectives add cvm.mobs.burw_ps dummy
 scoreboard objectives add cvm.mobs.burw_mm dummy
 scoreboard objectives add cvm.mobs.eebloop dummy
 scoreboard objectives add cvm.mobs.invul dummy
+scoreboard objectives add cvm.mobs.timer dummy
 
 # Nether cores module
 scoreboard objectives add cvm.nc.time dummy

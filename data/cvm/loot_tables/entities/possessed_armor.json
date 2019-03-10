@@ -36,7 +36,8 @@
 							"condition": "minecraft:entity_properties",
 							"predicate": {
 								"type": "minecraft:creeper"
-							}
+							},
+							"entity": "killer"
 						}
 					],
 					"name": "minecraft:music_disc_11"
