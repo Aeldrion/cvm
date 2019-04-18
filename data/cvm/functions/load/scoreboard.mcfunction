@@ -2,6 +2,7 @@
 # Creates the scoreboard objectives that are used by CVM
 
 # Blessings
+scoreboard objectives add cvm.blsgs.id dummy
 scoreboard objectives add cvm.blsgs.slot dummy
 
 # Heads
