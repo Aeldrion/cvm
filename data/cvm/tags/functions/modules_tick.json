@@ -2,6 +2,7 @@
 	"values": [
 		"cvm:modules/armor/main",
 		"cvm:modules/blessings/main",
+		"cvm:modules/blocks/main",
 		"cvm:modules/mobs/main",
 		"cvm:modules/rocket_boots/main",
 		"cvm:modules/staffs/main",

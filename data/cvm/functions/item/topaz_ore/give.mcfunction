@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512004,display:{Name:"{\"italic\":false,\"translate\":\"cvm.block.topaz_ore\"}"},cvm_item:{id:"topaz_ore"}}

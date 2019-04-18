@@ -1,0 +1,18 @@
+{
+	"parent": "cvm:credits/pixlriffs",
+	"display": {
+		"title": "LapisDemon - Bonus Blocks resource pack",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"LapisDemon\"}"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

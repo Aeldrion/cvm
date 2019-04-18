@@ -1,0 +1,18 @@
+{
+	"parent": "cvm:credits/aeldrion",
+	"display": {
+		"title": "Textures by Débicube",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Debicube\"}"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

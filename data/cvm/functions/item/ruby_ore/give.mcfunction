@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512002,display:{Name:"{\"italic\":false,\"translate\":\"cvm.block.ruby_ore\"}"},cvm_item:{id:"ruby_ore"}}

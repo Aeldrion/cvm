@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1512005}"
+		},
+		"title": {
+			"translate": "cvm.advancements.celestial_compendium.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.celestial_compendium.description"
+		},
+		"background": "cvm:textures/gui/advancements/backgrounds/cvm.png"
+	},
+	"criteria": {
+		"get_compendium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:barrier",
+						"nbt": "{cvm_item:{id:\"celestial_compendium\"}}"
+					}
+				]
+			}
+		}
+	}
+}

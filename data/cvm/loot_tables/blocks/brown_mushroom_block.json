@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"name": {
+										"translate": "block.minecraft.brown_mushroom_block",
+										"italic": false
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1512007,cvm_item:{id:\"brown_mushroom_block\"}}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch"
+											}
+										]
+									}
+								}
+							],
+							"name": "minecraft:barrier"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": -6.0,
+										"max": 2.0,
+										"type": "minecraft:uniform"
+									}
+								},
+								{
+									"function": "minecraft:limit_count",
+									"limit": {
+										"min": 0
+									}
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:brown_mushroom"
+						}
+					]
+				}
+			]
+		}
+	]
+}

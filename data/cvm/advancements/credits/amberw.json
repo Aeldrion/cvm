@@ -1,0 +1,18 @@
+{
+	"parent": "cvm:credits/lapisdemon",
+	"display": {
+		"title": "AmberW - Negative Space resource pack",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"AmberW\"}"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512006,display:{Name:"{\"italic\":false,\"translate\":\"block.minecraft.red_mushroom_block\"}"},cvm_item:{id:"red_mushroom_block"}}

@@ -1,0 +1,205 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 9,
+								"max": 15
+							}
+						}
+					],
+					"name": "minecraft:paper"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 7
+							}
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					],
+					"name": "minecraft:leather",
+					"weight":2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:writable_book"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1512004,cvm_item:{id:\"topaz\"}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "cvm.item.topaz",
+								"italic": false
+							}
+						}
+					],
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1512002,cvm_item:{id:\"ruby\"}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "cvm.item.ruby",
+								"italic": false
+							}
+						}
+					],
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
+							}
+						}
+					],
+					"name": "minecraft:rotten_flesh"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							}
+						}
+					],
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							}
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						},
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "cvm:chests/blessed_book"
+				}
+			]
+		}
+	]
+}

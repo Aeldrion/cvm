@@ -1,0 +1,20 @@
+{
+	"parent": "cvm:celestial_compendium",
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick",
+			"nbt": "{CustomModelData:1512007}"
+		},
+		"title": {
+			"translate": "cvm.advancements.nether_hallow.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.nether_hallow.description"
+		}
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

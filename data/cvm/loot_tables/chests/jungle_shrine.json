@@ -1,0 +1,203 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 18
+							}
+						}
+					],
+					"name": "minecraft:dirt"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 13
+							}
+						}
+					],
+					"name": "minecraft:grass_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						}
+					],
+					"name": "minecraft:gravel"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 4,
+								"max": 16
+							}
+						}
+					],
+					"name": "minecraft:mossy_stone_bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 6,
+								"max": 20
+							}
+						}
+					],
+					"name": "minecraft:stone_bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 15
+							}
+						}
+					],
+					"name": "minecraft:cracked_stone_bricks"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					],
+					"name": "minecraft:wheat_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 9,
+								"max": 11
+							}
+						}
+					],
+					"name": "minecraft:cocoa_beans"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 9,
+								"max": 22
+							}
+						}
+					],
+					"name": "minecraft:bamboo"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:allium"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:azure_bluet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_tulip"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.machete",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1512002,cvm_item:{id:\"machete\"}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.attackSpeed",
+									"name": "generic.attackSpeed",
+									"amount": 1000,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.jungle_bow",
+								"italic": false
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:1512001,cvm_item:{id:\"jungle_bow\"}}"
+						},
+						{
+							"function": "enchant_with_levels",
+							"levels": 45,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:bow"
+				}
+			]
+		}
+	]
+}

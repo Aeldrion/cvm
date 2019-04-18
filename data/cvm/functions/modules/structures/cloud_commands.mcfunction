@@ -16,9 +16,7 @@ function aestd:math/random
 execute if entity @s[tag=!cvm.structures.generated,scores={aestd.random=0,aestd.var=1}] run function cvm:modules/structures/biome_caves
 
 # Ores
-scoreboard players set @s aestd.random.max 4
-function aestd:math/random
-execute if entity @s[tag=!cvm.structures.generated,scores={aestd.random=0,aestd.var=1}] run function cvm:modules/structures/ores
+execute if entity @s[tag=!cvm.structures.generated,scores={aestd.var=1}] run function cvm:modules/structures/ores
 
 ## Tag so it doesn't do it every fricking time
 tag @s[scores={aestd.var=1}] add cvm.structures.generated

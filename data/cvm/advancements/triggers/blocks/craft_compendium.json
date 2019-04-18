@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:story/root",
+	"display": {
+		"title": "Craft celestial compendium",
+		"description": "",
+		"icon": {
+			"item": "minecraft:barrier"
+		},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:structure_void"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cvm:modules/crafter/craft_compendium"
+	}
+}

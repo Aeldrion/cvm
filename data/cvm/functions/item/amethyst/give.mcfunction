@@ -1,0 +1,1 @@
+give @s minecraft:clock{CustomModelData:1512001,display:{Name:"{\"italic\":false,\"translate\":\"cvm.item.amethyst\"}"},cvm_item:{id:"amethyst"}}

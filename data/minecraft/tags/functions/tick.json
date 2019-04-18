@@ -1,6 +1,5 @@
 {
 	"values": [
-		"#cvm:modules_tick",
-		"cvm:temp_drop_head"
+		"#cvm:modules_tick"
 	]
 }

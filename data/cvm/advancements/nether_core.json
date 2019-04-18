@@ -1,0 +1,19 @@
+{
+	"parent": "cvm:nether_hallow",
+	"display": {
+		"icon": {
+			"item": "minecraft:netherrack"
+		},
+		"title": {
+			"translate": "cvm.advancements.nether_core.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.nether_core.description"
+		}
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

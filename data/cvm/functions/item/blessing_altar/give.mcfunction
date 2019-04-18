@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512008,display:{Name:"{\"italic\":false,\"translate\":\"cvm.block.blessing_altar\"}"},cvm_item:{id:"blessing_altar"}}

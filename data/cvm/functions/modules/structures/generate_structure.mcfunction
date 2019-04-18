@@ -1,6 +1,7 @@
 # Written by Aeldrion, Minecraft 19w05a
 # Generates a random structure
 
+
 ## Prepare structure loading
 function aestd:context/load_chunk
 function aestd:context/get_biome
@@ -29,9 +30,9 @@ scoreboard players set @s aestd.random.max 5
 function aestd:math/random
 scoreboard players operation #cvm.structure_pool aestd.var = @s aestd.random
 
-execute if score @s aestd.dimension 0 if score #cvm.structure_pool aestd.var matches 0 at @s run function cvm:modules/structures/pool/underground
-execute if score @s aestd.dimension 0 if score #cvm.structure_pool aestd.var matches 1..2 at @s run function cvm:modules/structures/pool/biome
-execute if score @s aestd.dimension 0 if score #cvm.structure_pool aestd.var matches 3 at @s run function cvm:modules/structures/pool/surface
-execute if score @s aestd.dimension 0 if score #cvm.structure_pool aestd.var matches 4 at @s run function cvm:modules/structures/pool/sky
-execute if score @s aestd.dimension -1 at @s run function cvm:modules/structures/pool/nether
-execute if score @s aestd.dimension 1 at @s run function cvm:modules/structures/pool/end
+execute if score @s aestd.dimension matches 0 if score #cvm.structure_pool aestd.var matches 0 at @s run function cvm:modules/structures/pool/underground
+execute if score @s aestd.dimension matches 0 if score #cvm.structure_pool aestd.var matches 1..2 at @s run function cvm:modules/structures/pool/biome
+execute if score @s aestd.dimension matches 0 if score #cvm.structure_pool aestd.var matches 3 at @s run function cvm:modules/structures/pool/surface
+execute if score @s aestd.dimension matches 0 if score #cvm.structure_pool aestd.var matches 4 at @s run function cvm:modules/structures/pool/sky
+execute if score @s aestd.dimension matches -1 at @s run function cvm:modules/structures/pool/nether
+execute if score @s aestd.dimension matches 1 at @s run function cvm:modules/structures/pool/end

@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "cvm.block.ice_bricks",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1512011,cvm_item:{id:\"ice_bricks\"}}"
+						}
+					],
+					"name": "minecraft:barrier"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"name": {
+										"translate": "cvm.block.amethyst_ore",
+										"italic": false
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1512001,cvm_item:{id:\"amethyst_ore\"}}"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"item": "minecraft:iron_pickaxe",
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch"
+													}
+												]
+											}
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"item": "minecraft:diamond_pickaxe",
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch"
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							"name": "minecraft:barrier"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:set_name",
+									"name": {
+										"translate": "cvm.item.amethyst",
+										"italic": false
+									}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1512001,cvm_item:{id:\"amethyst\"}}"
+								},
+								{
+									"function": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops"
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"item": "minecraft:iron_pickaxe"
+											}
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"item": "minecraft:diamond_pickaxe"
+											}
+										}
+									]
+								}
+							],
+							"name": "minecraft:clock"
+						}
+					]
+				}
+			]
+		}
+	]
+}

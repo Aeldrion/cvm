@@ -30,21 +30,20 @@ execute at @s if block ~ ~ ~ minecraft:water if block ~ 64 ~ minecraft:air run t
 ## Generating the vein
 
 # Select a random shape
-# 3 needs to be extended to 5 when more models have been created
-scoreboard players set @s aestd.random.max 3
+scoreboard players set @s aestd.random.max 4
 function aestd:math/random
-execute if score @s aestd.random matches 0 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein1",posX:-2,posY:0,posZ:-2}
-execute if score @s aestd.random matches 1 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein2",posX:-2,posY:0,posZ:-2}
-execute if score @s aestd.random matches 2 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein3",posX:-2,posY:0,posZ:-2}
-execute if score @s aestd.random matches 3 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein4",posX:-2,posY:0,posZ:-2}
-execute if score @s aestd.random matches 4 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein5",posX:-2,posY:0,posZ:-2}
+execute if score @s aestd.random matches 0 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein1",posX:-4,posY:-2,posZ:-4}
+execute if score @s aestd.random matches 1 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein2",posX:-4,posY:0,posZ:-4}
+execute if score @s aestd.random matches 2 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein3",posX:-4,posY:0,posZ:-4}
+execute if score @s aestd.random matches 3 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein4",posX:-4,posY:-1,posZ:-4}
+execute if score @s aestd.random matches 4 at @s run setblock ~ ~-2 ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ores/vein5",posX:-1,posY:-1,posZ:-1}
 execute at @s run setblock ~ ~-1 ~ minecraft:redstone_block
 
-# Change heads to different ores
+# Change blocks to different ores
 scoreboard players set @s aestd.random.max 4
 function aestd:math/random
 
-execute if score @s aestd.random matches 0 at @s run function cvm:modules/structures/ores/amethyst
-execute if score @s aestd.random matches 1 at @s run function cvm:modules/structures/ores/ruby
-execute if score @s aestd.random matches 2 at @s run function cvm:modules/structures/ores/sapphire
-execute if score @s aestd.random matches 3 at @s run function cvm:modules/structures/ores/topaz
+execute if score @s aestd.random matches 0 at @s run fill ~-4 ~-4 ~-4 ~3 ~ ~3 minecraft:command_block{auto:1b,Command:"function cvm:block/amethyst_ore/place"} replace minecraft:red_glazed_terracotta
+execute if score @s aestd.random matches 1 at @s run fill ~-4 ~-4 ~-4 ~3 ~ ~3 minecraft:command_block{auto:1b,Command:"function cvm:block/ruby_ore/place"} replace minecraft:red_glazed_terracotta
+execute if score @s aestd.random matches 2 at @s run fill ~-4 ~-4 ~-4 ~3 ~ ~3 minecraft:command_block{auto:1b,Command:"function cvm:block/sapphire_ore/place"} replace minecraft:red_glazed_terracotta
+execute if score @s aestd.random matches 3 at @s run fill ~-4 ~-4 ~-4 ~3 ~ ~3 minecraft:command_block{auto:1b,Command:"function cvm:block/topaz_ore/place"} replace minecraft:red_glazed_terracotta

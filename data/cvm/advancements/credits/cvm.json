@@ -1,0 +1,21 @@
+{
+	"display": {
+		"title": "Celestia Veneror Magica",
+		"description": "A vanilla datapack for Minecraft 1.14",
+		"background": "minecraft:textures/block/prismarine_bricks.png",
+		"icon": {
+			"item": "minecraft:barrier",
+			"nbt": "{CustomModelData:1512005}"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "minecraft:location"
+		}
+	},
+	"rewards": {
+		"function": "cvm:load/credits/root"
+	}
+}

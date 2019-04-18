@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "cvm.block.tiled_concrete",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1512010,cvm_item:{id:\"tiled_concrete\"}}"
+						}
+					],
+					"name": "minecraft:barrier"
+				}
+			]
+		}
+	]
+}

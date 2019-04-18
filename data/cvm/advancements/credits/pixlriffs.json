@@ -1,0 +1,18 @@
+{
+	"parent": "cvm:credits/debicube",
+	"display": {
+		"title": "Pixlriffs - One Chunk Builds",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Pixlriffs\"}"
+		},
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"nope": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

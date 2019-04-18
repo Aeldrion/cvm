@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:story/root",
+	"display": {
+		"title": "Place a red mushroom block",
+		"description": "",
+		"icon": {
+			"item": "minecraft:barrier"
+		},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"placed": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:barrier",
+				"item": {
+					"item": "minecraft:barrier",
+					"nbt": "{cvm_item:{id:\"red_mushroom_block\"}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cvm:block/red_mushroom_block/replace_barrier"
+	}
+}

@@ -1,0 +1,2 @@
+gamerule logAdminCommands false
+gamerule sendCommandFeedback false

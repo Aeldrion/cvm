@@ -1,0 +1,27 @@
+{
+	"parent": "cvm:celestial_compendium",
+	"display": {
+		"icon": {
+			"item": "minecraft:firework_rocket"
+		},
+		"title": {
+			"translate": "cvm.advancements.rocket_boots.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.rocket_boots.description"
+		}
+	},
+	"criteria": {
+		"get_compendium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "aestd:boots",
+						"nbt": "{cvm_item:{properties:[\"rocket\"]}}"
+					}
+				]
+			}
+		}
+	}
+}
