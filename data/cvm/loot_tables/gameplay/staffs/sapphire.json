@@ -1,0 +1,94 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_sapphire",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.evocation_curse",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{cvm_item:{id:\"staff\",staff_type:5,staff_spell:1,mana_cost:120},CustomModelData:1512005}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_sapphire",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.medusas_curse",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{cvm_item:{id:\"staff\",staff_type:5,staff_spell:2,mana_cost:160},CustomModelData:1512005}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_sapphire",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.celestial_punishment",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{cvm_item:{id:\"staff\",staff_type:5,staff_spell:3,mana_cost:800},CustomModelData:1512005}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				}
+			]
+		}
+	]
+}

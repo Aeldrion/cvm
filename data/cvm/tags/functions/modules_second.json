@@ -1,7 +1,7 @@
 {
 	"values": [
 		"cvm:modules/crafter/main",
-		"cvm:modules/structures/main",
-		"cvm:modules/nether_cores/main"
+		"cvm:modules/nether_cores/main",
+		"cvm:modules/structures/main"
 	]
 }

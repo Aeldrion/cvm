@@ -37,7 +37,7 @@
 			}
 		],
 		"CustomName": "{\"translate\":\"cvm.entity.floating_eye\"}",
-		"DeathLootTable": "cvm:entity/floating_eye",
+		"DeathLootTable": "cvm:entities/floating_eye",
 		"Health": 10.0,
 		"Silent": 1,
 		"Tags": [

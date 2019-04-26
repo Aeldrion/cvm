@@ -1,0 +1,41 @@
+{
+	"name": "riverbeast",
+	"type": "entity",
+	"id": "minecraft:skeleton",
+	"nbt": {
+		"ArmorDropChances": [
+			0.0, 0.0, 0.0, 0.0
+		],
+		"ArmorItems": [
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:air"
+			},
+			{
+				"id": "minecraft:leather_chestplate",
+				"Count": 1,
+				"tag": {
+					"display": {
+						"color": 65535
+					}
+				}
+			},
+			{
+				"id": "minecraft:sea_lantern",
+				"Count": 1
+			}
+		],
+		"CustomName": "{\"translate\":\"cvm.entity.riverbeast\"}",
+		"DeathLootTable": "cvm:entities/riverbeast",
+		"NoGravity": 1,
+		"Silent": 1,
+		"Tags": [
+			"cvm.entity.checked",
+			"cvm.mobs.riverbeast",
+			"cvm.mobs.changed",
+			"cvm.mobs.invisible"
+		]
+	}
+}

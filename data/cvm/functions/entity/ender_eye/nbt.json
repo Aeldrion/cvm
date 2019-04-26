@@ -34,7 +34,7 @@
 			}
 		],
 		"CustomName": "{\"translate\":\"cvm.entity.ender_eye\"}",
-		"DeathLootTable": "cvm:entity/ender_eye",
+		"DeathLootTable": "cvm:entities/ender_eye",
 		"Silent": 1,
 		"Tags": [
 			"cvm.entity.checked",

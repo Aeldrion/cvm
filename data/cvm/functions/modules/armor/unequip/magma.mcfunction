@@ -1,4 +1,4 @@
-# Written by Aeldrion, 18w45a
+# Written by Aeldrion, 1.14
 # Removes the magma flame when a player stops wearing magma armor
 
 tag @s remove cvm.armor.wearing_magma

@@ -2,7 +2,7 @@
 # Generates an ice tower
 
 # Place and activate structure block
-execute at @s run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ice_tower",posX:-8,posY:0,posZ:-8}
+execute at @s run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",name:"cvm:ice_tower",posX:-4,posY:-1,posZ:-4}
 tag @s add aestd.block.adjust_structure_pos
 execute at @s run function aestd:block/randomize_structure_block
 execute at @s run setblock ~ ~1 ~ minecraft:redstone_block

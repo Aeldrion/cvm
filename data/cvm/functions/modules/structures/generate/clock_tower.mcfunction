@@ -2,7 +2,7 @@
 # Generates a clock tower
 
 # Place and activate structure block
-execute at @s run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",name:"cvm:pixlriffs_clock_tower",posX:-12,posY:-1,posZ:-11}
+execute at @s run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",name:"cvm:pixlriffs_clock_tower",posX:-12,posY:-2,posZ:-11}
 tag @s add aestd.block.adjust_structure_pos
 execute at @s run function aestd:block/randomize_structure_block
 execute at @s run setblock ~ ~1 ~ minecraft:redstone_block

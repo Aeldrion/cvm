@@ -16,8 +16,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.amethyst_sparks",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.amethyst_sparks\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:1,mana_cost:30},CustomModelData:1512001}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:1,staff_spell:1,mana_cost:30},CustomModelData:1512001}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"
@@ -34,8 +44,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.flame_ray",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.flame_ray\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:2,mana_cost:40},CustomModelData:1512001}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:1,staff_spell:2,mana_cost:40},CustomModelData:1512001}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"
@@ -52,8 +72,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.frost_ray",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.frost_ray\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:4,mana_cost:25},CustomModelData:1512001}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:1,staff_spell:4,mana_cost:25},CustomModelData:1512001}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"
@@ -70,8 +100,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.prismarine_shards",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.prismarine_shards\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:1,staff_spell:5,mana_cost:5},CustomModelData:1512001}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:1,staff_spell:5,mana_cost:5},CustomModelData:1512001}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"

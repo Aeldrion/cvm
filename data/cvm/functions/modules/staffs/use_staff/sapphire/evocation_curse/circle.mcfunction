@@ -1,0 +1,12 @@
+summon minecraft:evoker_fangs ~4.0 ~ ~0.0
+summon minecraft:evoker_fangs ~3.4641 ~ ~2.0
+summon minecraft:evoker_fangs ~2.0 ~ ~3.4641
+summon minecraft:evoker_fangs ~0.0 ~ ~4.0
+summon minecraft:evoker_fangs ~-2.0 ~ ~3.4641
+summon minecraft:evoker_fangs ~-3.4641 ~ ~2.0
+summon minecraft:evoker_fangs ~-4.0 ~ ~0.0
+summon minecraft:evoker_fangs ~-3.4641 ~ ~-2.0
+summon minecraft:evoker_fangs ~-2.0 ~ ~-3.4641
+summon minecraft:evoker_fangs ~-0.0 ~ ~-4.0
+summon minecraft:evoker_fangs ~2.0 ~ ~-3.4641
+summon minecraft:evoker_fangs ~3.4641 ~ ~-2.0

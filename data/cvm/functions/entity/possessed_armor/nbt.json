@@ -31,7 +31,7 @@
 			}
 		],
 		"CustomName": "{\"translate\":\"cvm.mobs.possessed_armor\"}",
-		"DeathLootTable": "cvm:entity/possessed_armor",
+		"DeathLootTable": "cvm:entities/possessed_armor",
 		"Health": 40.0,
 		"isBaby": 0,
 		"Silent": 1,

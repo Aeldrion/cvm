@@ -1,5 +1,5 @@
 # Written by Aeldrion, Minecraft 19w05a
-# Check recipes and craft items inside the celestial forge
+# Check recipes and craft items inside the celestial compendium
 
 # Blessings
 execute if block ~ ~ ~ minecraft:dispenser{Items:[{tag:{cvm_item:{id:"blessed_book"}},Count:1b,Slot:4b},{Count:1b,Slot:1b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:2b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:3b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:5b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:6b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:7b}]} unless block ~ ~ ~ minecraft:dispenser{Items:[{Slot:8b}]} run function cvm:modules/crafter/check_blessing
@@ -13,7 +13,7 @@ execute if block ~ ~ ~ minecraft:dispenser{Items:[{tag:{cvm_item:{id:"ruby"}},Co
 execute if block ~ ~ ~ minecraft:dispenser{Items:[{tag:{cvm_item:{id:"sapphire"}},Count:1b,Slot:1b},{id:"minecraft:stick",Count:1b,Slot:4b},{id:"minecraft:stick",Count:1b,Slot:7b}]} unless data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:5b}] unless data block ~ ~ ~ Items[{Slot:6b}] unless data block ~ ~ ~ Items[{Slot:8b}] run function cvm:modules/crafter/craft_item/sapphire_staff
 execute if block ~ ~ ~ minecraft:dispenser{Items:[{tag:{cvm_item:{id:"topaz"}},Count:1b,Slot:1b},{id:"minecraft:stick",Count:1b,Slot:4b},{id:"minecraft:stick",Count:1b,Slot:7b}]} unless data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:5b}] unless data block ~ ~ ~ Items[{Slot:6b}] unless data block ~ ~ ~ Items[{Slot:8b}] run function cvm:modules/crafter/craft_item/topaz_staff
 execute if block ~ ~ ~ minecraft:dispenser{Items:[{id:"minecraft:ice",Count:1b,Slot:1b},{id:"minecraft:stick",Count:1b,Slot:4b},{id:"minecraft:stick",Count:1b,Slot:7b}]} unless data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:3b}] unless data block ~ ~ ~ Items[{Slot:5b}] unless data block ~ ~ ~ Items[{Slot:6b}] unless data block ~ ~ ~ Items[{Slot:8b}] run function cvm:modules/crafter/craft_item/ice_staff
-
+execute if block ~ ~ ~ minecraft:dispenser{Items:[{id:"minecraft:lapis_lazuli",Count:1b,Slot:4b}]} run function cvm:modules/crafter/craft_item/staff_enhancer
 
 # Rocket boots
 execute if block ~ ~ ~ minecraft:dispenser{Items:[{id:"minecraft:firework_rocket",Count:1b,Slot:3b},{id:"minecraft:leather_boots",Count:1b,Slot:4b},{id:"minecraft:firework_rocket",Count:1b,Slot:5b}]} unless data block ~ ~ ~ Items[{Slot:0b}] unless data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:6b}] unless data block ~ ~ ~ Items[{Slot:7b}] unless data block ~ ~ ~ Items[{Slot:8b}] run function cvm:modules/crafter/craft_item/rocket_boots

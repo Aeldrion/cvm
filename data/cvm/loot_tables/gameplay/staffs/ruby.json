@@ -16,8 +16,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.ender_wand",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.teleportation\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:4,staff_spell:1,mana_cost:250},CustomModelData:1512004}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:4,staff_spell:1,mana_cost:250},CustomModelData:1512004}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"
@@ -34,8 +44,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.hoisting_spell",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.heat_wand\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:4,staff_spell:2,mana_cost:200},CustomModelData:1512004}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:4,staff_spell:2,mana_cost:200},CustomModelData:1512004}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"
@@ -52,8 +72,18 @@
 							}
 						},
 						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.rift_wand",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "set_nbt",
-							"tag": "{display:{Lore:[\"{\\\"translate\\\":\\\"cvm.spell.frost_wand\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"staff\",staff_type:4,staff_spell:3,mana_cost:200},CustomModelData:1512004}"
+							"tag": "{cvm_item:{id:\"staff\",staff_type:4,staff_spell:3,mana_cost:350},CustomModelData:1512004}"
 						}
 					],
 					"name": "minecraft:carrot_on_a_stick"

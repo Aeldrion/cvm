@@ -6,6 +6,7 @@
 execute if entity @s[tag=cvm.mobs.burrower.digging] run scoreboard players set @s aestd.random.max 100
 execute if entity @s[tag=cvm.mobs.burrower.digging] run scoreboard players set @s aestd.random.max 200
 execute if entity @s[tag=cvm.mobs.burrower.digging] run function aestd:math/random_range
+execute if entity @s[tag=cvm.mobs.burrower.digging] run summon minecraft:silverfish ~ ~ ~ {Health:0f,FallDistance:150}
 
 # Clear resistance effect
 effect clear @s minecraft:resistance

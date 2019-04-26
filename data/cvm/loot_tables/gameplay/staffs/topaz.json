@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_topaz",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.reclamation_wand",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{cvm_item:{id:\"staff\",staff_type:6,staff_spell:1,mana_cost:400},CustomModelData:1512006}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.staff_topaz",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"translate": "cvm.spell.healing_aura",
+									"color": "aqua",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{cvm_item:{id:\"staff\",staff_type:6,staff_spell:2,mana_cost:300},CustomModelData:1512006}"
+						}
+					],
+					"name": "minecraft:carrot_on_a_stick"
+				}
+			]
+		}
+	]
+}

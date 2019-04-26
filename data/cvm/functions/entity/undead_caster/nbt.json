@@ -1,0 +1,46 @@
+{
+	"name": "undead_caster",
+	"type": "entity",
+	"id": "minecraft:skeleton",
+	"nbt": {
+		"ArmorDropChances": [
+			0.0, 0.0, 0.0, 0.0
+		],
+		"ArmorItems": [
+			{
+				"id": "minecraft:chainmail_boots",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:chainmail_leggings",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:chainmail_chestplate",
+				"Count": 1
+			},
+			{
+				"id": "minecraft:chainmail_helmet",
+				"Count": 1
+			}
+		],
+		"CustomName": "{\"translate\":\"cvm.entity.undead_caster\"}",
+		"DeathLootTable": "cvm:entities/undead_caster",
+		"HandItems": [
+			{
+				"id": "minecraft:stick",
+				"Count": 1,
+				"tag": {
+					"display": {
+						"Name": "{\"translate\":\"cvm.item.magic_wand\"}"
+					}
+				}
+			}
+		],
+		"Tags": [
+			"cvm.entity.checked",
+			"cvm.mobs.undead_caster",
+			"cvm.mobs.changed"
+		]
+	}
+}

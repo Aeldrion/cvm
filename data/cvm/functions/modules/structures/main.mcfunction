@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 19w05a
 # Runs the structures module
 
 execute at @a positioned ~ 0 ~ unless entity @e[type=minecraft:area_effect_cloud,tag=cvm.structures.scan_cloud,distance=..81] run function cvm:modules/structures/summon_cloud

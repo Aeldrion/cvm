@@ -10,7 +10,7 @@
 			}
 		],
 		"CustomName": "{\"translate\":\"cvm.entity.villager_warrior\"}",
-		"DeathLootTable": "cvm:entity/villager_warrior",
+		"DeathLootTable": "cvm:entities/villager_warrior",
 		"Health": 30.0,
 		"Tags": [
 			"cvm.entity.checked",

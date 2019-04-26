@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:story/root",
 	"display": {
-		"title": "Place staff enhancer",
+		"title": "Place blessing altar",
 		"description": "",
 		"icon": {
 			"item": "minecraft:barrier"

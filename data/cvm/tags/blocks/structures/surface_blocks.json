@@ -9,6 +9,7 @@
 		"#minecraft:ice",
 		"#minecraft:leaves",
 		"#minecraft:logs",
-		"minecraft:snow"
+		"minecraft:snow",
+		"minecraft:packed_ice"
 	]
 }

@@ -12,4 +12,4 @@ title @s[scores={cvm.staffs.mana=701..800}] actionbar "\uF80D\uF80C\uF809\uF808\
 title @s[scores={cvm.staffs.mana=801..900}] actionbar "\uF80D\uF80C\uF809\uF808\uAE09"
 title @s[scores={cvm.staffs.mana=901..1000}] actionbar "\uF80D\uF80C\uF809\uF808\uAE10"
 title @s[scores={cvm.staffs.mana=1001..1100}] actionbar "\uF80D\uF80C\uF809\uF808\uAE11"
-title @s[scores={cvm.staffs.mana=1101..1200}] actionbar "\uF80D\uF80C\uF809\uF808\uAE12"
+title @s[scores={cvm.staffs.mana=1101..}] actionbar "\uF80D\uF80C\uF809\uF808\uAE12"
