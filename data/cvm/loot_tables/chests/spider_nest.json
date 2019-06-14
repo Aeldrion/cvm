@@ -60,7 +60,7 @@
 						},
 						{
 							"function": "set_nbt",
-							"tag": "{CustomModelData:1512001}"
+							"tag": "{CustomModelData:1512003}"
 						}
 					],
 					"name": "minecraft:iron_sword"

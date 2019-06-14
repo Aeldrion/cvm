@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512012,display:{Name:"{\"italic\":false,\"translate\":\"cvm.block.cobblestone_bricks\"}"},cvm_item:{id:"cobblestone_bricks"}}

@@ -1,4 +1,5 @@
-# Written by Aeldrion, Minecraft 1.14
+# Written by Aeldrion, Minecraft 1.14.2
+# Replaces a placed barrier by an amethyst ore
 
 advancement revoke @s only cvm:triggers/blocks/place_amethyst_ore
 

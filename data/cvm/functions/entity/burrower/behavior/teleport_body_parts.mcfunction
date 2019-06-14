@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 1.14.2
 # Teleports the furthest body part to the burrower so the body parts move with the main entity
 
 # ID search + tagging body entities as selected

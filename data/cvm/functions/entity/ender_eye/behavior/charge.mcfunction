@@ -1,5 +1,5 @@
-# Written by Aeldrion, Minecraft 19w05a
-# Charges towards the player
+# Written by Aeldrion, Minecraft 1.14.2
+# Charges five blocks in the direction the ender eye is looking
 
 # Teleport forward
 execute if block ^ ^ ^5 #aestd:air run teleport @s ^ ^ ^5

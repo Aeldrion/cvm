@@ -7,3 +7,5 @@ execute if score @s cvm.staffs.spell matches 2 run function cvm:modules/staffs/u
 execute if score @s cvm.staffs.spell matches 3 run function cvm:modules/staffs/use_staff/amethyst/wind_spell
 execute if score @s cvm.staffs.spell matches 4 run function cvm:modules/staffs/use_staff/amethyst/frost_ray
 execute if score @s cvm.staffs.spell matches 5 run function cvm:modules/staffs/use_staff/amethyst/prismarine_shards
+
+scoreboard players set @s cvm.staffs.mrsdt 80

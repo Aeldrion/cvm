@@ -1,0 +1,25 @@
+{
+	"name": "high_priest",
+	"type": "entity",
+	"id": "minecraft:villager",
+	"nbt": {
+		"Attributes": [
+			{
+				"Name": "generic.maxHealth",
+				"Base": 36.0
+			}
+		],
+		"CustomName": "{\"translate\":\"cvm.entity.high_priest\"}",
+		"DeathLootTable": "cvm:entities/high_priest",
+		"Health": 36.0,
+		"Tags": [
+			"cvm.entity.checked",
+			"cvm.mobs.high_priest",
+			"cvm.mobs.changed"
+		],
+		"VillagerData": {
+			"level": 1,
+			"profession": "minecraft:priest"
+		}
+	}
+}

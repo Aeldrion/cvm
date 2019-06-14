@@ -1,5 +1,5 @@
 {
-	"parent": "cvm:nether_hallow",
+	"parent": "cvm:cvm",
 	"display": {
 		"icon": {
 			"item": "minecraft:netherrack"

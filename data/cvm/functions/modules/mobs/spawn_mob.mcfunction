@@ -7,7 +7,7 @@ function aestd:math/random
 
 # Get mob data
 function aestd:entity/get_biome
-function aestd:entity/get_coordinates
+function aestd:entity/get_position
 
 # Change the function depending on the mob type
 execute if entity @s[type=minecraft:zombie] run function cvm:modules/mobs/spawn/zombie

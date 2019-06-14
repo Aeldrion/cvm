@@ -1,4 +1,5 @@
 {
+	"parent": "cvm:cvm",
 	"display": {
 		"icon": {
 			"item": "minecraft:barrier",
@@ -9,8 +10,7 @@
 		},
 		"description": {
 			"translate": "cvm.advancements.celestial_compendium.description"
-		},
-		"background": "cvm:textures/gui/advancements/backgrounds/cvm.png"
+		}
 	},
 	"criteria": {
 		"get_compendium": {

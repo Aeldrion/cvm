@@ -19,7 +19,8 @@
 		],
 		"VillagerData": {
 			"level": 1,
-			"profession": "minecraft:none"
-		}
+			"profession": "minecraft:weaponsmith"
+		},
+		"Xp": 1
 	}
 }

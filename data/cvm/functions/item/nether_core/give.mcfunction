@@ -1,0 +1,1 @@
+give @s minecraft:blaze_spawn_egg{display:{Name:"{\"translate\":\"cvm.item.nether_core\",\"italic\":false}"},EntityTag:{Tags:["cvm.nether_cores.nether_core"],DeathLootTable:"minecraft:empty"}}

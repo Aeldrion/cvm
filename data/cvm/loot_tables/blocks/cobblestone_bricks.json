@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "cvm.block.cobblestone_bricks",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1512012,cvm_item:{id:\"cobblestone_bricks\"}}"
+						}
+					],
+					"name": "minecraft:barrier"
+				}
+			]
+		}
+	]
+}

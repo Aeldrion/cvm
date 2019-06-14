@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 1.14
 # Summons a scanner cloud from the player
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration:0,Tags:["cvm","cvm.structures.new_cloud"]}

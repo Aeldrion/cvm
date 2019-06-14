@@ -1,5 +1,5 @@
-# Written by Aeldrion, Minecraft 19w07a
-# Curses the player and crumples the book
+# Written by Aeldrion, Minecraft 1.14.2
+# Curses the player that tried to bless a book and crumples the book that was inserted
 
 tag @s add cvm.blessings.altar.crumpling_book
 
@@ -13,4 +13,6 @@ execute if score @s aestd.random matches 30..39 as @p at @s run teleport @s ^ ^ 
 execute if score @s aestd.random matches 40..49 run effect give @p minecraft:wither 6 0
 execute if score @s aestd.random matches 50..59 run experience add @p -10 points
 
-data modify block ~ ~ ~ Items[0] merge value {id:"minecraft:paper",tag:{CustomModelData:1512001}}
+data modify block ~ ~ ~ Items[0] merge value {id:"minecraft:book",tag:{CustomModelData:1512001,cvm_item:{id:"crumpled_book"}}}
+
+playsound minecraft:entity.elder_guardian.curse block @a ~ ~ ~ 1 0.7

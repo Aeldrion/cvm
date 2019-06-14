@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{id:"minecraft:leather_helmet",Count:1b,Slot:4b,tag:{Unbreakable:1b,display:{Name:"{\"translate\":\"cvm.item.obsidian_helmet\",\"italic\":false}",color:2622008},CustomModelData:1512003,cvm_item:{id:"obsidian_helmet"}}}]}

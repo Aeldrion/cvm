@@ -1,0 +1,64 @@
+{
+	"parent": "cvm:rocket_boots",
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData:1512001}"
+		},
+		"title": {
+			"translate": "cvm.advancements.rocket_boots.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.rocket_boots.description"
+		}
+	},
+	"criteria": {
+		"get_magma_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"id": "minecraft:leather_boots",
+						"nbt": "{cvm_item:{id:\"magma_boots\"}"
+					}
+				]
+			}
+		},
+		"get_magma_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"id": "minecraft:leather_leggings",
+						"nbt": "{cvm_item:{id:\"magma_leggings\"}"
+					}
+				]
+			}
+		},
+		"get_magma_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"id": "minecraft:leather_chestplate",
+						"nbt": "{cvm_item:{id:\"magma_chestplate\"}"
+					}
+				]
+			}
+		},
+		"get_magma_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"id": "minecraft:leather_helmet",
+						"nbt": "{cvm_item:{id:\"magma_helmet\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["get_magma_boots","get_magma_leggings","get_magma_chestplate","get_magma_helmet"]
+	]
+}

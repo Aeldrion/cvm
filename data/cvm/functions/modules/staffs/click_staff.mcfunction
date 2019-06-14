@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 1.14
 # Runs the staff's effect if its mana cost is inferior to the player's mana
 
 execute store result score @s cvm.staffs.mcost run data get entity @s SelectedItem.tag.cvm_item.mana_cost

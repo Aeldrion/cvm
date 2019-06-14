@@ -2,11 +2,10 @@
 # Creates the scoreboard objectives that are used by CVM
 
 # Blessings
+scoreboard objectives add cvm.blsgs.damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add cvm.blsgs.id dummy
 scoreboard objectives add cvm.blsgs.slot dummy
-
-# Heads
-scoreboard objectives add cvm.heads.mined minecraft.mined:minecraft.player_head
+scoreboard objectives add cvm.blsgs.shoot minecraft.used:minecraft.bow
 
 # Structures module
 scoreboard objectives add cvm.gen.loaded dummy
@@ -40,7 +39,9 @@ scoreboard objectives add cvm.skyp.power dummy
 scoreboard objectives add cvm.staffs.cd dummy
 scoreboard objectives add cvm.staffs.mana dummy
 scoreboard objectives add cvm.staffs.mcost dummy
+scoreboard objectives add cvm.staffs.mrsdt dummy
 scoreboard objectives add cvm.staffs.pra dummy
+scoreboard objectives add cvm.staffs.rwxp
 scoreboard objectives add cvm.staffs.spell dummy
 scoreboard objectives add cvm.staffs.type dummy
 scoreboard objectives add cvm.staffs.use minecraft.used:minecraft.carrot_on_a_stick

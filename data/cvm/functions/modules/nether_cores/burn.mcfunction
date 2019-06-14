@@ -8,5 +8,5 @@ effect clear @s minecraft:regeneration
 
 # Give nether core every 6 seconds
 scoreboard players add @s cvm.nc.time 1
-give @s[scores={cvm.nc.time=6..}] minecraft:blaze_spawn_egg{display:{Name:"{\"translate\":\"cvm.item.nether_core\"}"},EntityTag:{Tags:["cvm.nether_cores.nether_core"],DeathLootTable:"minecraft:empty"}}
+execute as @s[scores={cvm.nc.time=6..}] run function cvm:item/nether_core/give
 scoreboard players reset @s[scores={cvm.nc.time=6..}] cvm.nc.time

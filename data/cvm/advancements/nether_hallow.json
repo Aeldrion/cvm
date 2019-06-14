@@ -1,5 +1,5 @@
 {
-	"parent": "cvm:celestial_compendium",
+	"parent": "cvm:nether_core",
 	"display": {
 		"icon": {
 			"item": "minecraft:carrot_on_a_stick",

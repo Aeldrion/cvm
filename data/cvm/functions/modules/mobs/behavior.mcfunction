@@ -4,6 +4,7 @@
 execute if entity @s[tag=cvm.mobs.burrower] run function cvm:entity/burrower/behavior/main
 execute if entity @s[tag=cvm.mobs.ender_eye] run function cvm:entity/ender_eye/behavior/main
 execute if entity @s[tag=cvm.mobs.floating_eye] run function cvm:entity/floating_eye/behavior/main
+execute if entity @s[tag=cvm.mobs.high_priest] run function cvm:entity/high_priest/behavior/main
 execute if entity @s[tag=cvm.mobs.possessed_armor] run function cvm:entity/possessed_armor/behavior/main
 execute if entity @s[tag=cvm.mobs.riverbeast] run function cvm:entity/riverbeast/behavior/main
 execute if entity @s[tag=cvm.mobs.undead_caster] run function cvm:entity/undead_caster/behavior/main

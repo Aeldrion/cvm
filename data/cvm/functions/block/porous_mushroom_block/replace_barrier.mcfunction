@@ -1,4 +1,5 @@
-# Written by Aeldrion, Minecraft 19w05a
+# Written by Aeldrion, Minecraft 1.14.2
+# Replaces a placed barrier with a porous mushroom block
 
 advancement revoke @s only cvm:triggers/blocks/place_porous_mushroom_block
 

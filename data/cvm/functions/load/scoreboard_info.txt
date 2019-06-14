@@ -1,17 +1,34 @@
-cvm.mobs.burw_id:			Numerical ID of a burrower (necessary because they are composed of multiple entities)
-cvm.mobs.burw_ps:			Position of a burrower's body part from its head
-cvm.mobs.eebloop:			Ender eye behavior loop
+cvm.blsgs.damage				Used to detect when damage is dealt, should be moved to an advancement
+cvm.blsgs.id					
+cvm.blsgs.slot					Stores which slot of a blessing altar is the blessing slot
+cvm.blsgs.shoot					Used to detect when an arrow is shot, should be moved to an advancement
 
-cvm.paths.sneak:		 	Counts how much the player has sneaked
-cvm.paths.run:				Counts how much the player has ran
-cvm.paths.walk:				Counts how much the player has walked
+cvm.gen.loaded 					Used to detect if a chunk is loaded
 
-cvm.skyp.engcd:				Engine cooldown time left
-cvm.skyp.max:				Maximum skypower supported by an engine
-cvm.skyp.power:				Skypower value of an engine
+cvm.mobs.burw_id				Associates a unique ID for every burrower and its body parts
+cvm.mobs.burw_ps				
+cvm.mobs.burw_mm				Stores the momentum stat of a burrower
+cvm.mobs.eebloop				Should be moved to another objective
+cvm.mobs.invul					How many ticks a player should be invulnerable from custom mob attacks, increases when damaged
+cvm.mobs.timer					Generic timer for all custom mobs to use
+cvm.mobs.vw_ai_t				Should be moved to another objective
 
-cvm.timber.####:			Detects when the player mines a log
-cvm.timber.sneak:			Determines whether or not the player is sneaking
+cvm.nc.time						Stores the duration a player has been standing in a sacrifice altar
 
-cvm.vein.####:				Detects when the player mines a specific ore
-cvm.vein.sneak:				Determines whether or not the player is sneaking
+cvm.rb.use						Detects when a player sneaks with rocket boots
+
+cvm.staffs.cd 					The cooldown of a player, in ticks
+cvm.staffs.mana					A player's mana stat
+cvm.staffs.mcost				Used to store the mana cost of a staff's spell, taken from mana upon use
+cvm.staffs.mrsdt				Mana regeneration slowdown ticks, how many ticks should mana regenerate at a slower speed
+cvm.staffs.pra 
+cvm.staffs.rwxp					Regeneration wand XP
+cvm.staffs.spell				Stores the spell ID of a staff
+cvm.staffs.type					Stores the type ID of a staff (ex. 1=Amethyst)
+cvm.staffs.use					Used to detect when a staff is used by a player
+
+cvm.timber.oak|birch|spr...		Used to detect when a player chops a block of wood
+cvm.timber.sneak				Used to detect when a player sneaks
+
+cvm.veins.coal|iron|gold...		Used to detect when a player mines a block of ore
+cvm.veins.sneak					Used to detect when a player sneaks

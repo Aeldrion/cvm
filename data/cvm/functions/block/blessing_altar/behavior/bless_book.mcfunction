@@ -1,3 +1,6 @@
+# Written by Aeldrion, Minecraft 1.14.2
+# Blesses a book
+
 execute if score @s cvm.blsgs.slot matches 0 run loot replace block ~ ~ ~ container.0 loot cvm:chests/blessed_book
 execute if score @s cvm.blsgs.slot matches 1 run loot replace block ~ ~ ~ container.1 loot cvm:chests/blessed_book
 execute if score @s cvm.blsgs.slot matches 2 run loot replace block ~ ~ ~ container.2 loot cvm:chests/blessed_book
@@ -7,3 +10,6 @@ execute if score @s cvm.blsgs.slot matches 4 run loot replace block ~ ~ ~ contai
 scoreboard players set @s aestd.random.max 5
 function aestd:math/random
 scoreboard players operation @s cvm.blsgs.slot = @s aestd.random
+
+playsound minecraft:block.beacon.power_select block @a ~ ~ ~ 1 2
+playsound minecraft:block.enchantment_table.use block @a ~ ~ ~

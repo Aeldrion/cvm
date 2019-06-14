@@ -75,6 +75,42 @@
 						}
 					],
 					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.godly_guidance\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"godly_guidance\"},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"translate": "cvm.item.blessed_book",
+								"italic": false,
+								"color": "gold"
+							}
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{Enchantments:[{}],display:{Lore:[\"{\\\"translate\\\":\\\"cvm.blessing.prominence\\\",\\\"italic\\\":false,\\\"color\\\":\\\"aqua\\\"}\"]},cvm_item:{id:\"blessed_book\",StoredBlessing:\"prominence\"},CustomModelData:1512001}"
+						}
+					],
+					"name": "minecraft:book"
 				}
 			]
 		}

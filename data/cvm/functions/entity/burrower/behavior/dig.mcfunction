@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w05a
+# Written by Aeldrion, Minecraft 1.14.2
 # Runs the behavior of digging burrowers
 
 ## When the burrower was in the air just before

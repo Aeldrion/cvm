@@ -195,6 +195,28 @@
 								}
 							],
 							"name": "cvm:blocks/ice_bricks"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:red_mushroom_block",
+									"properties": {"down":false,"east":true,"north":false,"south":true,"up":true,"west":true}
+								}
+							],
+							"name": "cvm:blocks/cobblestone_bricks"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:red_mushroom_block",
+									"properties": {"down":false,"east":true,"north":true,"south":false,"up":false,"west":true}
+								}
+							],
+							"name": "cvm:blocks/cloud_block"
 						}
 					]
 				}

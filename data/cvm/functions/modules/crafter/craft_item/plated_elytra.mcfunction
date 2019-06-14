@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{id:"minecraft:elytra",Count:1b,Slot:4b,tag:{AttributeModifiers:[{Name:"generic.armor",AttributeName:"generic.armor",Amount:8.0f,Operation:0,UUIDLeast:32189219L,UUIDMost:98762489L,Slot:"chest"}],CustomModelData:1512001,cvm_item:{id:"plated_elytra"},display:{Name:'{"translate":"cvm.item.plated_elytra"}'}}}]}

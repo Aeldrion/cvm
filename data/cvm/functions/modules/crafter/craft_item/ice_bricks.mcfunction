@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{id:"minecraft:barrier",Count:4b,Slot:4b,tag:{CustomModelData:1512011,display:{Name:'{"italic":false,"translate":"cvm.block.ice_bricks"}'},cvm_item:{id:"ice_bricks"}}}]}

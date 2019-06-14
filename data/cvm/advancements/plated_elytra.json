@@ -1,0 +1,29 @@
+{
+	"parent": "cvm:magma_armor",
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{CustomModelData:1512001}"
+		},
+		"title": {
+			"translate": "cvm.advancements.plated_elytra.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.plated_elytra.description"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"get_plated_elytra": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"id": "minecraft:elytra",
+						"nbt": "{cvm_item:{id:\"plated_elytra\"}"
+					}
+				]
+			}
+		}
+	}
+}

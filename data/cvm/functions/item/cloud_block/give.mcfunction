@@ -1,0 +1,1 @@
+give @s minecraft:barrier{CustomModelData:1512014,display:{Name:"{\"italic\":false,\"translate\":\"cvm.block.cloud_block\"}"},cvm_item:{id:"cloud_block"}}

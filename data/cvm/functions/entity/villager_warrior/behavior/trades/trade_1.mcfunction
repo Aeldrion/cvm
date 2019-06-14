@@ -8,3 +8,13 @@ execute if score @s aestd.random matches 1 run data modify entity @s Offers.Reci
 execute if score @s aestd.random matches 2 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:shield",Count:1b},sell:{id:"minecraft:emerald",Count:2b}}
 execute if score @s aestd.random matches 3 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:chainmail_chestplate",Count:1b}}
 execute if score @s aestd.random matches 4 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:iron_boots",Count:1b},sell:{id:"minecraft:emerald",Count:2b}}
+
+scoreboard players set @s aestd.random.max 4
+function aestd:math/random
+
+execute if score @s aestd.random matches 0 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:shield",Count:1b}}
+execute if score @s aestd.random matches 1 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:iron_ingot",Count:5b},sell:{id:"minecraft:emerald",Count:2b}}
+execute if score @s aestd.random matches 2 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:iron_leggings",Count:1b}}
+execute if score @s aestd.random matches 3 run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:stone_axe",Count:1b},sell:{id:"minecraft:emerald",Count:1b}}
+
+scoreboard players add @s aestd.vt.total_t 2

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:prismarine_shard"
+		},
+		"title": {
+			"translate": "cvm.advancements.cvm.title"
+		},
+		"description": {
+			"translate": "cvm.advancements.cvm.description"
+		},
+		"background": "cvm:textures/gui/advancements/backgrounds/cvm.png",
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:location"
+		}
+	}
+}

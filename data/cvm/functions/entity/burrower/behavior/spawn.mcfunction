@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 18w50a
+# Written by Aeldrion, untested
 # Spawns the body parts of a burrower
 
 # Giving burrower's ID
@@ -31,5 +31,3 @@ scoreboard players set @s cvm.mobs.burw_mm 30
 # Remove tags
 tag @s remove cvm.mobs.burrower_spawn
 tag @e[type=minecraft:area_effect_cloud,tag=cvm.mobs.burrower_body_spawn,limit=7] remove cvm.mobs.burrower_body_spawn
-
-effect give @s minecraft:glowing 2400 0 true

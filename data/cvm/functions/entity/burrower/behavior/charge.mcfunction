@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 1.14.2
 # Charges towards the player, happens when the burrower pops out of the ground close to a player
 
 function cvm:entity/burrower/behavior/chase_player

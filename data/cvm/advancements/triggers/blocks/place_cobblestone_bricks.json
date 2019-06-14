@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:story/root",
+	"display": {
+		"title": "Place cobblestone bricks",
+		"description": "",
+		"icon": {
+			"item": "minecraft:barrier"
+		},
+		"hidden": true,
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"placed": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:barrier",
+				"item": {
+					"item": "minecraft:barrier",
+					"nbt": "{cvm_item:{id:\"cobblestone_bricks\"}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "cvm:block/cobblestone_bricks/replace_barrier"
+	}
+}

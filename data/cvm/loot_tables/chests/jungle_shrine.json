@@ -166,7 +166,14 @@
 								{
 									"attribute": "generic.attackSpeed",
 									"name": "generic.attackSpeed",
-									"amount": 1000,
+									"amount": 512,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attackDamage",
+									"name": "generic.attackDamage",
+									"amount": 5,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

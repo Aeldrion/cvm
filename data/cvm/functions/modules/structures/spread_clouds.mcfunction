@@ -1,4 +1,4 @@
-# Written by Aeldrion, Minecraft 19w02a
+# Written by Aeldrion, Minecraft 1.14
 # Spread clouds to neighboring chunks
 
 execute positioned ~-16 0 ~ if block ~ 0 ~ minecraft:bedrock run function cvm:modules/structures/summon_cloud_from_cloud
